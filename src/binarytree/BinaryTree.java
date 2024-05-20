@@ -1,3 +1,5 @@
+package binarytree;
+
 class Node {
     int data;
     Node left;
