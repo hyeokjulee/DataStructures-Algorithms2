@@ -2,7 +2,7 @@ package queue;
 
 import java.util.NoSuchElementException;
 
-class Queue<T> {
+public class Queue<T> {
     class Node<T> {
         private T data;
         private Node<T> next;

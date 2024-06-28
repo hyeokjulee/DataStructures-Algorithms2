@@ -2,7 +2,7 @@ package stack;
 
 import java.util.EmptyStackException;
 
-class Stack<T> {
+public class Stack<T> {
     class Node<T> {
         private T data;
         private Node<T> next;
